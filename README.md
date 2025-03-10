@@ -1,45 +1,131 @@
-# Build a Real-Time Slack Clone With Nextjs, React, Tailwind, Auth.js | Code with Antonio
+Slack Clone
+===========
 
-## Getting Started
+A feature-rich **Slack Clone**, a real-time communication platform with comprehensive messaging and workspace management.
 
-First, run the development server:
+Features
+--------
+
+### Messaging Capabilities
+
+*   📡 **Real-time communication**
+    
+*   👍 **Message reactions**
+    
+*   🧵 **Threads & Replies**
+    
+*   ✏️ **Editing messages**
+    
+*   🗑️ **Deleting messages**
+    
+*   🖼️ **Image attachments**
+    
+*   💬 **Direct messaging**
+    
+
+### Workspace Management
+
+*   🏢 **Workspace creation**
+    
+*   📺 **Channel management**
+    
+*   ✉️ **Invite system & invite codes**
+    
+*   🔐 **Role-based access control**
+    
+*   👥 **User profiles & presence**
+    
+
+### Technical Stack
+
+*   ⚛️ **Next.js 14** – A powerful React framework that enables server-side rendering, static generation, and full-stack development with API routes.
+    
+*   🔒 **Next Auth v5** – A flexible authentication library for Next.js, supporting multiple providers and JWT-based authentication.
+    
+*   📡 **WebSockets** – Enables real-time communication between users for an interactive messaging experience.
+    
+*   📦 **Convex** – A modern backend-as-a-service that provides a **real-time database** and **serverless functions**, simplifying backend development and ensuring seamless data synchronization.
+    
+*   🎨 **Shadcn UI Components** – A customizable and accessible component library for building modern UIs with ease.
+    
+*   🎨 **Tailwind CSS** – A utility-first CSS framework for fast and responsive UI design.
+    
+*   🚀 **Vercel Deployment** – A seamless cloud platform for hosting and deploying Next.js applications.
+    
+
+Screenshots
+-----------
+![Thread](/assets/Screenshot1.png)
+![Profile](/assets/Screenshot2.png)
+![Invite To Workspace](/assets/Screenshot3.png)
+![Invite To Workspace](/assets/Screenshot4.png)
+![Invite To Join](/assets/Screenshot5.png)
+![Search](/assets/Screenshot6.png)
+![Create Channel](/assets/Screenshot7.png)
+
+
+Installation & Setup
+--------------------
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+
+*   **Node.js (v18 or later)**
+    
+*   **Yarn or npm**
+    
+*   **A Convex account for backend services**
+    
+
+### Clone the Repository
+
+```bash
+
+git clone https://github.com/jadzeino/next14-slack-clone.git  cd next14-slack-clone
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Setup Convex
+
+```bash
+npx convex dev
+```
+resgister using github and if you need more info read the documtion here
+
+https://docs.convex.dev/tutorial/
+
+### Run the Project Locally
+
+Run this command in parrarel with convex 
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be accessible at http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Deployment
+----------
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Deploying to Vercel
 
----
+1.  Install the [Vercel CLI](https://vercel.com/docs/cli)
+    
+2.  vercel
+    
+3.  Follow the prompts to set up your project
+    
+4.  Your app will be deployed and accessible via a Vercel-provided URL
+    
 
-## ⭐DO NOT FORGET TO STAR THIS REPO⭐
+## Try it online
 
----
+THe repo is deployed on Vecel on this url
 
-If you want to learn how to create it please follow below tutorial👇:
-➡ Tutorial Link 💚: [Build a Real-Time Slack Clone With Nextjs, React, Tailwind, Auth.js | Part 1/2 (2024)](https://www.youtube.com/watch?v=lXITA5MZIiI)
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [https://next14-slack-clone-theta.vercel.app/](https://next14-slack-clone-theta.vercel.app/)
