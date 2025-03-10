@@ -86,14 +86,7 @@ The app will be accessible at http://localhost:3000
 
 ## Deployment
 
-### Deploying to Vercel
-
-1.  Install the [Vercel CLI](https://vercel.com/docs/cli)
-2.  vercel
-3.  Follow the prompts to set up your project
-4.  Your app will be deployed and accessible via a Vercel-provided URL
-
-## Try it online
+### Try it online
 
 THe repo is deployed on Vecel on this url
 
